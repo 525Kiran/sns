@@ -1,10 +1,10 @@
-variable "sns_name" {
+variable "name" {
   type = string
 
 
 }
 
-variable "aws_id" {
+variable "id_aws" {
   type = string
 
 }
