@@ -7,5 +7,7 @@ provider "aws" {
 module "module" {
   source  = "app.terraform.io/Kiran525/module/sns"
   version = "1.0.0"
+  sns_name = var.sns_name
+  aws_id = var.aws_id
 
 }
